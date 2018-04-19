@@ -1,0 +1,16 @@
+{
+  "name": "FriendsOfShopware/frosh-variant-switch",
+  "keywords": ["basket", "product", "variants", "configurator", "checkout", "change", "shopware", "shopware-plugin"],
+  "description": "Shopware plugin to switch variants in basket and checkout views",
+  "license": "MIT",
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "FroshVariantSwitch"
+  },
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "scripts": {
+    "test": "phpunit -c tests"
+  }
+}
