@@ -1,5 +1,5 @@
 {
-  "name": "frosh/frosh-variant-switch",
+  "name": "frosh/variant-switch",
   "keywords": ["basket", "product", "variants", "configurator", "checkout", "change", "shopware", "shopware-plugin"],
   "description": "Shopware plugin to switch variants in basket and checkout views",
   "license": "MIT",
