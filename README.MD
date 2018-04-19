@@ -21,7 +21,7 @@ page instead.
 
 ### Install with composer
 * Change to your root installation of shopware
-* Run command `composer require frosh/frosh-variant-switch` and install and activate plugin with Plugin Manager 
+* Run command `composer require frosh/variant-switch` and install and activate plugin with Plugin Manager 
 
 ## Requirements
 
