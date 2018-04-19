@@ -1,6 +1,5 @@
 # Change product variants from basket
 
-[![Scrutinizer](https://scrutinizer-ci.com/g/FriendsOfShopware/FroshVariantSwitch/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/FriendsOfShopware/FroshVariantSwitch/?branch=master)
 [![Travis CI](https://travis-ci.org/FriendsOfShopware/FroshVariantSwitch.svg?branch=master)](https://travis-ci.org/FriendsOfShopware/FroshVariantSwitch)
 
 This plugin for Shopware adds functionality to change the previously
