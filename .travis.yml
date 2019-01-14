@@ -20,22 +20,10 @@ cache:
    directories:
      - ${HOME}/.composer/cache/files
 
-install:
-  - composer install
-
 before_script:
-  - if [[ "$(php --version | grep -cim1 xdebug)" -ge 1 ]]; then phpenv config-rm xdebug.ini; fi
-  - git clone https://github.com/shopware/shopware.git ${SHOPWARE_DIRECTORY} --branch ${SHOPWARE_VERSION}
-  - mv ${TRAVIS_BUILD_DIR} ${PLUGIN_DIRECTORY}/${PLUGIN_NAME}
-  - cd ${PLUGIN_DIRECTORY}/${PLUGIN_NAME}
+  - cd ${TRAVIS_BUILD_DIR}
 
 after_success:
   - ./build.sh
   - wget 'https://github.com/FriendsOfShopware/FroshPluginUploader/blob/master/frosh-plugin-upload.phar?raw=true' -O frosh-plugin-upload.phar
   - php frosh-plugin-upload.phar plugin:upload FroshVariantSwitch*.zip
-
-
-matrix:
-  allow_failures:
-  - env: SHOPWARE_VERSION="5.5"
-  - php: nightly
