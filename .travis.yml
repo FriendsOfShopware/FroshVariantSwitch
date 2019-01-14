@@ -24,6 +24,7 @@ script:
   - cd ${TRAVIS_BUILD_DIR}
 
 after_success:
+  - cd ${TRAVIS_BUILD_DIR}
   - ./build.sh
   - wget 'https://github.com/FriendsOfShopware/FroshPluginUploader/blob/master/frosh-plugin-upload.phar?raw=true' -O frosh-plugin-upload.phar
-  - php frosh-plugin-upload.phar plugin:upload FroshVariantSwitch*.zip
+  - php frosh-plugin-upload.phar plugin:upload ${TRAVIS_BUILD_DIR}/FroshVariantSwitch-1.0.0.zip
