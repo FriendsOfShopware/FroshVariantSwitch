@@ -2,7 +2,6 @@ language: php
 
 php:
   - 7.0
-  - 7.1
 
 sudo: false
 
@@ -11,7 +10,6 @@ services:
 
 env:
   matrix:
-    - SHOPWARE_VERSION="5.4"
     - SHOPWARE_VERSION="5.5"
   global:
     - PLUGIN_NAME=FroshVariantSwitch
@@ -40,6 +38,9 @@ script:
 
 after_success:
   - ./build.sh
+  - wget 'https://github.com/FriendsOfShopware/FroshPluginUploader/blob/master/frosh-plugin-upload.phar?raw=true' -O frosh-plugin-upload.phar
+  - php frosh-plugin-upload.phar plugin:upload FroshVariantSwitch*.zip
+
 
 matrix:
   allow_failures:
