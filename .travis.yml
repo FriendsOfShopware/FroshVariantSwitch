@@ -20,7 +20,7 @@ cache:
    directories:
      - ${HOME}/.composer/cache/files
 
-before_script:
+script:
   - cd ${TRAVIS_BUILD_DIR}
 
 after_success:
