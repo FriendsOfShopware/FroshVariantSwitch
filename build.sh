@@ -15,4 +15,4 @@ rm -rf FroshVariantSwitch FroshVariantSwitch-*.zip
 mkdir -p FroshVariantSwitch
 git archive ${commit} | tar -x -C FroshVariantSwitch
 composer install --no-dev -n -o -d FroshVariantSwitch
-zip -r FroshVariantSwitch-${commit}.zip FroshVariantSwitch
+zip -x "*build.sh*" -x "*.MD" -r FroshVariantSwitch-${commit}.zip FroshVariantSwitch
