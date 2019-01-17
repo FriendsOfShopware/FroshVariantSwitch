@@ -2,7 +2,7 @@
 
 [![Travis CI](https://travis-ci.org/FriendsOfShopware/FroshVariantSwitch.svg?branch=master)](https://travis-ci.org/FriendsOfShopware/FroshVariantSwitch)
 
-![VariantSwitch](https://davidneustadt.de/web/upload/variantchange.gif)
+![VariantSwitch](https://raw.githubusercontent.com/FriendsOfShopware/FroshVariantSwitch/master/Resources/store/images/0.png)
 
 This plugin for Shopware adds functionality to change the previously
 selected variant of a product within basket and checkout views.
