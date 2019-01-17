@@ -14,4 +14,15 @@
         <changes lang="de">Initial Release</changes>
         <changes lang="en">Initial Release</changes>
     </changelog>
+
+    <description>
+        <![CDATA[
+            Makes it possible to change the selected variant in the shopping cart afterwards.
+        ]]>
+    </description>
+    <description lang="de">
+        <![CDATA[
+            Dieses Plugin ermöglicht es im Warenkorb die ausgewählte Variante nachträglich zu ändern
+        ]]>
+    </description>
 </plugin>
