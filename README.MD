@@ -1,6 +1,7 @@
 # Change product variants from basket
 
 [![Travis CI](https://travis-ci.org/FriendsOfShopware/FroshVariantSwitch.svg?branch=master)](https://travis-ci.org/FriendsOfShopware/FroshVariantSwitch)
+[![Download @ Community Store](https://img.shields.io/badge/endpoint.svg?url=https://frosh.shyim.de/FroshVariantSwitch)](https://store.shopware.com/en/frosh64694548243f/switch-variants-in-basket.html)
 
 ![VariantSwitch](https://raw.githubusercontent.com/FriendsOfShopware/FroshVariantSwitch/master/Resources/store/images/0.png)
 
