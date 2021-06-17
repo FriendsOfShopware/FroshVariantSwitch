@@ -3,12 +3,17 @@
     <label lang="de">Variantenwechsel im Warenkorb</label>
     <label lang="en">Switch variants in basket</label>
 
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <copyright>Friends of Shopware</copyright>
     <license>MIT</license>
     <link>https://friendsofshopware.github.io/</link>
     <author>Friends of Shopware</author>
     <compatibility minVersion="5.4.0" />
+
+    <changelog version="1.0.1">
+        <changes lang="de">Shopware 5.7 Support</changes>
+        <changes lang="en">Shopware 5.7 Support</changes>
+    </changelog>
 
     <changelog version="1.0.0">
         <changes lang="de">Initial Release</changes>
